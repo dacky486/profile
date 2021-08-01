@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+  <!--Include Animate CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!--Include Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <!--Include Materialize CSS-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+  <title>dqwu.blog</title>
+</head>
+
+<body>
+
+  <!--Header Section-->
+  <header id="home" class="navbar-fixed-top">
+    <!--Banner Slider-->
+    <div class="slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="./img/cover/banner.jpg" >
+          <div class="caption left-align grey-text text-lighten-5">
+            <h5>Fail fast<br>fail often</h5>
+            <h3>but learn more</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--Navbar-->
+    <nav>
+      <div class="container">
+        <a href="#" class="left sidenav-trigger show-on-medium-and-up" data-target="side-nav">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </nav>
+    <!--Instruction Arrow-->
+    <a href="#about" id="arrow" class="animated bounce infinite slow"></a>
+  </header>
+
+  <!--Side Nav-->
+  <ul class="sidenav grey lighten-1" id="side-nav">
+    <li><a class="center">My Menu</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#home">Home</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#skill">Skills</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#project">Project</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#contact">Contact Me</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Learn More About Me</a></li>
+    <div id="side-nav-icons-container">
+      <h5><a href="https://github.com/dacky486" class="grey-text text-darken-3" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </h5>
+    </div>
+  </ul>
+
+  <!--Skills-->
+  <section class="section-skills parallax-container scrollspy" id="skill">
+    <div class="overlay">
+      <div class="carousel carousel-slider center">
+        <!--Front-End-->
+        <div class="carousel-item white-text valign-wrapper" href="#frontEnd!" id="front-end-carousel-item">
+          <div class="container">
+            <h3>Front-End Skills</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 z-depth-5 tooltip">
+                <img src="./img/skills/HTML.png" alt="Vue.js Logo" class="responsive-img">
+                <span class="tooltip-text">HTML</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/JavaScript.png" alt="JavaScript Logo" class="responsive-img">
+                <span class="tooltip-text">JavaScript</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/CSS.png" alt="Sass Logo" class="responsive-img">
+                <span class="tooltip-text">CSS</span><!--SaSS/SCSS-->
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Bootstrap.png" alt="Bootstrap Logo" class="responsive-img">
+                <span class="tooltip-text">Bootstrap</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Materialize.png" alt="Materialize Logo" class="responsive-img">
+                <span class="tooltip-text">Materialize</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Back-End-->
+        <div class="carousel-item white-text valign-wrapper" href="#backEnd!">
+          <div class="container">
+            <h3>Back-End Skills</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/NodeJS.png" class="responsive-img">
+                <span class="tooltip-text">NodeJS</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/LINUX.png" class="responsive-img">
+                <span class="tooltip-text">LINUX</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/PHP.png" zclass="responsive-img">
+                <span class="tooltip-text">PHP</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/MySQL.png" alt="MySQL Logo" class="responsive-img">
+                <span class="tooltip-text">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Other Skills ans Tools-->
+        <div class="carousel-item white-text valign-wrapper" href="#others!">
+          <div class="container">
+            <h3>Tools & Others</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/GitHub.png" class="responsive-img">
+                <span class="tooltip-text">GitHub</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Git.png" class="responsive-img">
+                <span class="tooltip-text">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="./img/parallax/sky.jpg">
+      </div>
+    </div>
+  </section>
+
+  <!--Project Display Section-->
+  <section class="section grey lighten-5 section-project grey-text text-darken-2 scrollspy" id="project">
+    <div class="container">
+      <h3 class="center">Recent Project</h3>
+      <h6 class="grey-text text-darken-1 center">
+        Watch a full list of projects at once on my <span class="light-blue-text text-accent-4"><a
+            href="https://github.com/dacky486?tab=repositories" target="_blank" id="github-repo-link">GitHub</a></span>
+      </h6>
+      <div class="row">
+        <!--Projects be displayed here-->
+      </div>
+    </div>
+  </section>
+
+  <!--Learn More Section-->
+  <!--Contact Section-->
+  <section class="section experience  lighten-5 section-contact grey-text text-darken-2 scrollspy" id="contact">
+    <div class="container center">
+      <h3>Contact Me</h3>
+      <h6>Email this address<br>dacky486@gmail.com</h6>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="page-footer  lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <p class="grey-text text-darken-3">Learn more about me</p>
+          <div id="footer-links">
+            <a href="https://github.com/dacky486" target="_blank" class="grey-text text-lighten-3"><i
+                class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright center">
+      <div class="container">Welcome</div>
+    </div>
+  </footer>
+
+  <!--Floating Action Button-->
+  <div class="fixed-action-btn toolbar">
+    <a
+      class="btn-floating btn-large blue-grey darken-1 hide-on-med-and-up waves-effect waves-light scale-transition scale-out">
+      <i class="material-icons">account_circle</i>
+    </a>
+    <ul>
+      <li><a href="https://github.com/dacky486" class="btn-floating" target="_blank"><i
+            class="fab fa-github fa-2x"></i>
+          </a>
+      </li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+  <script type="text/javascript" src="./js/materialize-init.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
